@@ -1,0 +1,43 @@
+JavaScript is a versatile and widely used programming language that playes crucial role in web dev .It enables developer to create interactive and dynamic elements within web pages, enhancing the user experienced by adding functionality that responds to user action 
+Command to run js code ->  node file name
+In js we are not going to use link tag we will be using src attribute in script tag <script src=””></script>
+Console is a object and in console there are many methods
+Ex console.warn(),console.error();
+
+OBJECTS :
+Objects in js are a structure which allows us to store a data ,but also allows to store data with the label
+OBJECTS ->{labels:value}
+In arrays we cannot store along with labels but here we can 
+const arr = [];
+console.log(typeof arr); //here for array also it shows the type as object
+//THEREFORE the type of array is object
+
+If nothing value or labels are thre in stored for an object the it shows undefined while accessing any value of that label
+FUNCTIONS 
+•	A function is a block of code that performs a specific task
+•	Function makes the code reusable.You can declare it once and use it multiple times
+•	Function makes the program, easier as each small task is divided into a function
+•	Function increases readability 
+•	DRY -Don’t repeat yourself
+•	Function name(parameterIfAny)   {…}
+
+WE can call function before declaring it it will work 
+But the function is written using expression or variable and if we call that before function definition then it will give error
+greetings("John"); //But if i write this before writing fucntion then it will give error (cannotaccess greeting )// Function Expression
+const greetings = function (user) {
+console.log(`Hello ${user}`);};
+
+greetings("John");
+
+
+Callback Function is JS
+When we provide function as an argument to other function that function is known as callback function
+
+Scope in js
+Scope in Java Script refers to the current context of Code, which determines the accessibility of
+ variable to javascript 
+
+There are 2 types of scopes in javascript
+Global scope variable are those declared outside of a block
+local scope variable are those declared inside of a block
+

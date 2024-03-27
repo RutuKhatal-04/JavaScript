@@ -1,0 +1,12 @@
+// alert("Hello My name is Rutu");
+console.warn("Hey how dare u");
+console.log("Hey how dare u");
+console.log("Hey how dare u");
+console.log("Hey how dare u");
+console.clear();
+console.log("heeelooooo");
+console.log("heeelooooo");
+console.log("heeelooooo");
+console.log("heeelooooo");
+console.log("heeelooooo");
+console.log("heeelooooo");

@@ -1,0 +1,1 @@
+//When the web page is loaded the browser creates a Document object model of the page
